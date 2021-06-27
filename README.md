@@ -4,7 +4,7 @@
 
 Add this in your root `build.gradle` file (**not** your module `build.gradle` file):
 
-gradle
+```gradle
 allprojects {
 	repositories {
 		...
@@ -19,9 +19,9 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 
 ```gradle
 dependencies {
-	...
-	implementation 'com.github.Shashank02051997:FancyToast-Android:0.1.8'
-}
+	        implementation 'com.github.aasimMex:Toastey:Tag'
+	}
+
 ```
 ## Usage
 
